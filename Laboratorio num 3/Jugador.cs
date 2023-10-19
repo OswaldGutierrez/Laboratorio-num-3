@@ -9,72 +9,94 @@ namespace Laboratorio_num_3
     internal class Jugador
     {
 
-        String nombre;
-        String correo;
-        String endulzadaIdeal;
-        String regaloIdeal;
-        String amigoSecreto;
+        //String nombre;
+        //String correo;
+        //String endulzadaIdeal;
+        //String regaloIdeal;
+        //String amigoSecreto;
 
-        public Jugador(String nombre, String correo, String endulzadaIdeal, String regaloIdeal)
-        {
-            this.nombre = nombre;
-            this.correo = correo;
-            this.endulzadaIdeal = endulzadaIdeal;
-            this.regaloIdeal = regaloIdeal;
-        }
+        //public Jugador(String nombre, String correo, String endulzadaIdeal, String regaloIdeal)
+        //{
+        //    this.nombre = nombre;
+        //    this.correo = correo;
+        //    this.endulzadaIdeal = endulzadaIdeal;
+        //    this.regaloIdeal = regaloIdeal;
+        //}
 
-        public String getNombre()
+        public Jugador(string nombre, string correo, string endulzadaIdeal, string regaloIdeal)
         {
-            return nombre;
-        }
-
-        public String getCorreo()
-        {
-            return correo;
-        }
-        public String getEndulzadaIdeal()
-        {
-            return endulzadaIdeal;
+            Nombre = nombre;
+            Correo = correo;
+            EndulzadaIdeal = endulzadaIdeal;
+            RegaloIdeal = regaloIdeal;
         }
 
-        public String getRegaloIdeal()
-        {
-            return regaloIdeal;
-        }
 
-        public String getAmigoSecreto()
-        {
-            return amigoSecreto;
-        }
 
-        public void setNombre(String nombre)
-        {
-            this.nombre = nombre;
-        }
+        public string Nombre { get; set; }
 
-        public void setCorreo(String correo)
-        {
-            this.correo = correo;
-        }
+        public string Correo { get; set; }
 
-        public void setEndulzadaIdeal(String endulzadaIdeal)
-        {
-            this.endulzadaIdeal = endulzadaIdeal;
-        }
+        public string EndulzadaIdeal { get; set; }
 
-        public void setRegaloIdeal(String regaloIdeal)
-        {
-            this.regaloIdeal = regaloIdeal;
-        }
+        public string RegaloIdeal { get; set; }
 
-        public void setAmigoSecreto(String amigo)
-        {
-            this.amigoSecreto = amigo;
-        }
+        public string AmigoSecreto { get; set; }
+
+
+
+        //public String getNombre()
+        //{
+        //    return nombre;
+        //}
+
+        //public String getCorreo()
+        //{
+        //    return correo;
+        //}
+        //public String getEndulzadaIdeal()
+        //{
+        //    return endulzadaIdeal;
+        //}
+
+        //public String getRegaloIdeal()
+        //{
+        //    return regaloIdeal;
+        //}
+
+        //public String getAmigoSecreto()
+        //{
+        //    return amigoSecreto;
+        //}
+
+        //public void setNombre(String nombre)
+        //{
+        //    this.nombre = nombre;
+        //}
+
+        //public void setCorreo(String correo)
+        //{
+        //    this.correo = correo;
+        //}
+
+        //public void setEndulzadaIdeal(String endulzadaIdeal)
+        //{
+        //    this.endulzadaIdeal = endulzadaIdeal;
+        //}
+
+        //public void setRegaloIdeal(String regaloIdeal)
+        //{
+        //    this.regaloIdeal = regaloIdeal;
+        //}
+
+        //public void setAmigoSecreto(String amigo)
+        //{
+        //    this.amigoSecreto = amigo;
+        //}
 
         public String mostrarJugador()
         {
-            return "Jugador: " + this.nombre + ", " + this.correo + ", " + this.endulzadaIdeal + ", " + this.regaloIdeal;
+            return "Jugador: " + this.Nombre + ", " + this.Correo + ", " + this.EndulzadaIdeal + ", " + this.RegaloIdeal;
         }
 
     }
